@@ -12,20 +12,3 @@ services:
     ports:
       - "3001:3001"
 
-# version: "3.8"
-# services: 
-#   react-project:
-#     build: ./project_react_app
-#     ports: 
-#       - 3000:80
-#     depends_on:
-#       - express-project
-      
-#   express-project:
-#     build: ./project_express_app
-#       - 3001:3001
-  # database:
-  #   image: mongo:4.0-xenial
-  #   ports:
-  #     - 27017:27017
-
